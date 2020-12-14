@@ -67,7 +67,7 @@ function loadDataset() {
 	// d3.json("data/debateD3.json", function(error, json) {
 		// data = json;
 
-	d3.json("data/Slang_retweet_v7.json", function(error, json) {
+	d3.json("data/Slang_retweet_Nov25.json", function(error, json) {
 		
 
 		data = processData(json);
